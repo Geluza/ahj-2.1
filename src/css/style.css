@@ -1,0 +1,32 @@
+body {
+    color: #999;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .playingField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 592px;
+    margin-top: 25px;
+  }
+  
+  .cell {
+    background-color: rgb(230, 226, 10);
+    border: 1px solid rgb(28, 72, 165);
+    box-sizing: border-box;
+    width: 128px;
+    height: 128px;
+    border-radius: 35%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  .goblin {
+    background-image: url("../img/goblin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
