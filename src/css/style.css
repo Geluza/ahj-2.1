@@ -9,19 +9,17 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 592px;
+    width: 600px;
     margin-top: 25px;
   }
   
   .cell {
-    background-color: rgb(230, 226, 10);
-    border: 1px solid rgb(28, 72, 165);
+    background-color: black;
     box-sizing: border-box;
-    width: 128px;
-    height: 128px;
-    border-radius: 35%;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 0 15px 15px;
+    border-radius: 50%;
   }
   
   .cell_with_char {
